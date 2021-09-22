@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><!--导航容器-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    >
+    <!-- 导航顶部的线条,并没有效果-->
+    <View
+        android:id="@+id/top_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@id/linear_navigation"
+        android:background="#8BC34A"/>
+    <!--导航内容-->
+    <LinearLayout
+        android:id="@+id/linear_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FFEB3B"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"/>
+</RelativeLayout>

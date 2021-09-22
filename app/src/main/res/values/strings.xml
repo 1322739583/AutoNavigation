@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AutoNavigation</string>
+    <string name="nav_icon">导航图标</string>
+</resources>
